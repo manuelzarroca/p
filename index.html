@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>Manuel Zarroca</title>
+        <link rel="icon" type="image/x-icon" href="/i/icon.png">
+        <link rel="stylesheet" href="/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/translater.js/1.0.12/translater.min.js" integrity="sha512-lVd8Ov3O+4Ubc0HN0IKhjbP4nOg7MDoQORI2tpkWSdRr3440zt31uR+lgO9QNDGrBUjq/hcsMjQDVux/02142w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <center>
+            <div class="main-wrap">
+                <h2 style="font-weight: 500; font-size: 1.4rem;">
+                    Manuel Zarroca
+                </h2>
+                <p style="margin-top: 1.75em;">
+                    ¡Hola! I'm a creative student candidate who designs and develops apps and concepts. I love building functional and accessible products that are lightweight and easy-to-use.
+                    <!--{es}¡Hola! Soy un candidato a estudiante creativo que diseña y desarrolla apps y conceptos. Me encanta construir productos funcionales y accesibles que sean ligeros y fáciles de usar.-->
+                    <br>
+                    <br>
+                    I believe digital design plays an important role in environmentally-friendly and sustainable practices. I'm mainly interested in geography, language, aviation and indie music. 
+                    <!--{es}Creo que el diseño digital juega un papel importante en prácticas sostenibles y amigables con el ambiente.-->
+                    <br>
+                    <br>
+                    In 2024, I started 
+                    <!--{es}En 2024 empecé-->
+                    <a href="/a/nomadful">Nomadful</a>
+                    as a free and open alternative to mainstream mental health apps. Developing this app enlightened me on multiple subjects and gave me knowledge beyond design.
+                    <!--{es} como una alternativa abierta y gratuita a las grandes apps de salud mental. Desarrollar esta app amplió mi perspectiva en múltiples materias, y me otorgó conocimiento más allá del diseño.-->
+                    <br>
+                    <br>
+                    <a class="secondary" href="mailto:manuelzarroca@duck.com">
+                        Send an email
+                        <!--{es}Enviar un correo electrónico-->
+                    </a>
+                </p>
+                <div class="separator"></div>
+                <h3 style="font-weight: 500; margin-top: 0px;">
+                    Projects and short reads
+                    <!--{es}Proyectos y lecturas cortas-->
+                </h3>
+                <p class="secondary" style="margin-bottom: 0px;">
+                    October 2025
+                    <!--{es}Octubre de 2025-->
+                </p>
+                <h4 style="font-weight: 500; margin-top: 2px; margin-bottom: 0px;">
+                    Building my own research survey
+                    <!--{es}Construyendo mi propia encuesta de investigación-->
+                </h4>
+                <a href="/a/survey" style="margin-bottom: 0px;">
+                    Learn more
+                    <!--{es}Leer a detalle-->
+                </a>
+                <br>
+                <br>
+                <p class="secondary" style="margin-bottom: 0px;">
+                    September 2024
+                    <!--{es}Septiembre de 2024-->
+                </p>
+                <h4 style="font-weight: 500; margin-top: 2px; margin-bottom: 0px;">
+                    Nomadful
+                </h4>
+                <a href="/a/nomadful" style="margin-bottom: 0px;">
+                    Learn more
+                    <!--{es}Leer a detalle-->
+                </a>
+                <div class="separator"></div>
+                <h3 style="font-weight: 500; margin-top: 0px;">
+                    Upcoming work
+                    <!--{es}Próximos trabajos-->
+                </h3>
+                <p>
+                    I'm currently working on a couple side projects I'll be publishing here, in my little space on the Internet. You're welcome to follow along!
+                    <!--{es}Actualmente estoy trabajando en un par de proyectos paralelos que publicaré en este, mi pequeño espacio en el internet. ¡Te invito a seguirlos de cerca!-->
+                </p>
+                <br>
+                <p class="secondary">
+                    © 2026 Manuel Zarroca
+                </p>
+                <a class="secondary" id="l-s">
+                    Español
+                    <!--{es}English-->
+                </a>
+                <br>
+                <br>
+                <br>
+            </div>
+        </center>
+        <script type="text/javascript">
+            var tran = new Translater();
+            if (tran.getLang() === "default") tran.setLang('en');
+
+            document.querySelector("#l-s").addEventListener("click", () => {
+                tran.setLang(tran.getLang() === 'en' ? 'es' : 'en');
+                location.reload();
+            });
+        </script>
+    </body>
+</html>

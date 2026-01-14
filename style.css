@@ -1,0 +1,87 @@
+@import url('https://api.fontshare.com/v2/css?f[]=hind@300,400,500,600,700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hind", system-ui;
+    background: #F6F6F6;
+    color: #09021D;
+}
+
+.main-wrap {
+    width: calc(100% - 32px);
+    max-width: 640px;
+    text-align: left !important;
+    padding-top: 8rem;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background: #00000030;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.secondary {
+    color: #00000080;
+}
+
+a {
+    color: #ABABAB;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: #ABABAB50;
+    text-decoration-thickness: 0.8px;
+    transition: linear 100ms;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #101418;
+    text-decoration-color: #ABABAB;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    pointer-events: none;
+    user-select: none;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    pointer-events: none;
+    user-select: none;
+}
+
+br {
+    user-select: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #121416;
+        color: #F8F8F8;
+    }
+
+    .separator {
+        background: #FFFFFF20;
+    }
+
+    .secondary {
+        color: #FFFFFF50;
+    }
+
+    a {
+        color: #FFFFFF80;
+        text-decoration-color: #FFFFFF50;
+    }
+
+    a:hover {
+        color: #FFFFFF;
+        text-decoration-color: #FFFFFF80;
+    }
+}
